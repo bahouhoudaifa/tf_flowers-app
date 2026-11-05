@@ -45,13 +45,7 @@ wheels/
 # ==============================================================================
 # Dossier de téléchargement automatique TFDS
 tensorflow_datasets/
-# Modèles sérialisés et poids (fichiers volumineux)
-*.keras
-*.h5
-*.hdf5
-*.tflite
-*.pb
-checkpoints/
+
 
 # ==============================================================================
 # Streamlit
@@ -59,24 +53,7 @@ checkpoints/
 .streamlit/secrets.toml
 .streamlit/config.toml
 
-# ==============================================================================
-# Fichiers auxiliaires de compilation LaTeX (pour rapport.tex)
-# ==============================================================================
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.synctex(busy)
-*.bbl
-*.blg
-*.nav
-*.snm
-*.vrb
+
 
 # ==============================================================================
 # Environnements de développement & IDEs
